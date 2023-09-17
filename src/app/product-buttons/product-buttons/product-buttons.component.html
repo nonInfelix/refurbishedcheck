@@ -1,0 +1,34 @@
+<h2 *ngIf="!isLoading">Entdecke und vergleiche alle refurbished Produkte an einem Ort</h2>
+<h2 *ngIf="isLoading">Lade Daten, einen Moment bitte...</h2>
+<div class="container">
+  <div class="btn-container">
+    <button class="btn" (click)='clickSearch("iphone 11")'>
+      iPhone 11
+    </button>
+  </div>
+  <div class="btn-container">
+    <button class="btn" (click)='clickSearch("iphone 12")'>
+      iPhone 12
+    </button>
+  </div>
+  <div class="btn-container">
+    <button class="btn" (click)='clickSearch("macbook air")'>
+      MacBook Air
+    </button>
+  </div>
+  <div class="btn-container">
+    <button class="btn" (click)='clickSearch("macbook pro")'>
+      MacBook Pro
+    </button>
+  </div>
+  <div class="btn-container">
+    <button class="btn" (click)='clickSearch("samsung galaxy s22")'>
+      Samsung Galaxy S22
+    </button>
+  </div>
+  <div class="btn-container">
+    <button class="btn" (click)='clickSearch("samsung galaxy s23")'>
+      Samsung Galaxy S23
+    </button>
+  </div>
+</div>

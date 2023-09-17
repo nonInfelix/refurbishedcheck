@@ -1,0 +1,14 @@
+h2 {
+  color: #17bebb;
+  background-image: -webkit-linear-gradient(
+    0deg,
+    #17bebb 29%,
+    #13232a 61%,
+    #000000 90%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}

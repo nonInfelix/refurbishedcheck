@@ -1,0 +1,4 @@
+<app-header (formEvent)="onSearch($event)"></app-header>
+<h2 *ngIf="isLoading">Lade Produkte...</h2>
+<app-product-buttons (buttonSearchEvent)="onSearch($event)" *ngIf="!products && !isLoading"></app-product-buttons>
+<app-product-card [products]="products"></app-product-card>

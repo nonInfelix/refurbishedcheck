@@ -1,0 +1,22 @@
+<div class="grid-container">
+  <main *ngFor="let product of products" class="container">
+    <a class="card-link" [href]="product.link" target="_blank">
+      <div class="card-container">
+        <div class="card-image">
+          <img [src]="product.img" [alt]="product.title">
+        </div>
+        <div class="card-content">
+          <h2 class="card-title">
+            {{product.title}}
+          </h2>
+          <p>Diese Produkt findest du auf
+            <span class="card-content-platform"> {{product.platform}} </span>
+            für einen Preis ab
+            <span class="card-content-price">{{product.price}}€</span>
+          </p>
+          <a [href]="product.link" class="btn" target="_blank">zum Angebot</a>
+        </div>
+      </div>
+    </a>
+  </main>
+</div>
