@@ -61,7 +61,7 @@
 }
 .card-image img {
   height: 250px;
-  width: auto;
+  max-width: 250px;
 }
 .card-content {
   padding: 5px 20px 5px 20px;
