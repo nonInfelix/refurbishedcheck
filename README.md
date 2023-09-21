@@ -1,3 +1,9 @@
+# About the project
+This project was build with Puppeteer, Express, Angular and plain CSS.
+For a Demo Version please visit https://refurbishedcheck.vercel.app/.
+
+refurbishedcheck can crawl multiple sites for refurbished products and extract their product information. 
+
 # Refurbishedcheck
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.2.
